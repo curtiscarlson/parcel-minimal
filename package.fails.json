@@ -1,0 +1,20 @@
+{
+  "name": "test_parcel",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "parcel": "parcel",
+    "watch": "parcel src/js/app.js --out-dir public/build",
+    "build": "parcel build src/js/app.js --out-dir public/build"
+  },
+  "author": "Curt Carlson",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.2.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.6.3",
+    "parcel": "^npm ru1.11.0"
+  }
+}
